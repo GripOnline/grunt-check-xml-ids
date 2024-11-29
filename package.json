@@ -1,0 +1,41 @@
+{
+  "name": "grunt-check-xml-ids",
+  "description": "Grunt plugin to check if a set of XML files contain the same ids",
+  "version": "0.1.0",
+  "homepage": "https://github.com/GripOnline/grunt-check-xml-ids",
+  "author": {
+    "name": "Erik Hoogeboom",
+    "email": "bigtree@29a.nl"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GripOnline/grunt-check-xml-ids.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GripOnline/grunt-check-xml-ids/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/GripOnline/grunt-check-xml-ids/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-nodeunit": "^5.0.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "xml2js": "^0.6.2"
+  }
+}
